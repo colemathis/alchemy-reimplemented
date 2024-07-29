@@ -35,6 +35,7 @@ There is a python library for this code. To develop run the following commands:
 2) Activate venv `source .env/bin/activate`
 3) install maturin `pip install maturin`
 4) develop `maturin develop`
+5) run `python alchemy/main.py` to see it in action
 
 If this all goes according to plan you can import the library like this
 
