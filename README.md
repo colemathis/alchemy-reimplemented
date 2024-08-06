@@ -26,3 +26,19 @@ Documentation:
 * Help: `cargo run -- --help`
 
 The documentation for the configuration file is in the `Config` object.
+
+# Python Library WIP
+
+There is a python library for this code. To develop run the following commands:
+
+1) Make a virtual env `python -m venv .env`
+2) Activate venv `source .env/bin/activate`
+3) install maturin `pip install maturin`
+4) develop `maturin develop`
+5) run `python alchemy/main.py` to see it in action
+
+If this all goes according to plan you can import the library like this
+
+```
+import alchemy
+alchemy.sum_as_string(20,5) # '25'
